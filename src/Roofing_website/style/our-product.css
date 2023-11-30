@@ -1,0 +1,126 @@
+.service-img{
+    margin-top: -100px;
+    padding-left: -20px;
+    
+}
+.overlay{
+    position: absolute;
+    width: 370px;
+    height: 240px;
+    background-color: orange;
+    /* background-image: url(../images/service-img-6.jpg); */
+    top: 0px;
+    opacity: 0;
+}
+.overlay a{
+position: absolute;
+border:2px solid black solid black;
+margin-left: 145px;
+margin-top: 120px;
+padding: 10px 25px;
+cursor: pointer;
+text-decoration: none;
+border-radius: 5px;
+background-color: #222222;
+color: white;
+}
+.img-box:hover .overlay{
+    opacity: 1;
+   }
+
+/* .img-box img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.7s;
+    opacity: .9;
+} */
+.service-title{
+    /* position: absolute; */
+    margin-top: -900px;
+}
+.service-explain{
+    width: 900px;
+    margin-left: 300px;
+}
+.service-title h1{
+    padding-top: 50px;
+    text-align: center; 
+    position: relative;
+}
+.bg-img{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+.service-title p{
+    position: absolute;
+    width: 220px;
+    border-bottom: 5px solid black;
+    margin-left: 650px;
+    margin-top: -15px;
+}
+
+.img-box span{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: -4px;
+    background-color: rgb(133, 3, 3);
+    border: 3px solid rgb(90, 2, 2);
+}
+.img-box label{
+    position: absolute;
+    width: 285px;
+    margin-top: -4px;
+    border-bottom:2px solid black solid rgb(123, 118, 118);
+    border-right:2px solid black solid rgb(123, 118, 118);
+    padding: 21px 0px;
+    margin-left: 64px;
+    padding-left: 20px;
+    background-color: black;
+    color: wheat;
+    font-size: 16px;
+    font-weight: 500;
+}
+.img-box label:hover{
+    color: white;
+}
+.service-img{
+    position: relative;
+    /* margin-top: 50px; */
+    width: 90%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    margin-left: 40px;
+    /* border:2px solid black solid black; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.img-box{
+    margin-top: 100px;
+    position: relative;
+}
+
+.view{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    border:2px solid black solid rgb(255, 255, 255);
+    margin-left: 670px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    background-color: rgb(114, 184, 182);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.view:hover{
+    opacity: .7;
+    cursor: pointer;
+    font-size: 17px;
+}

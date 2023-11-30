@@ -1,0 +1,133 @@
+#products{
+    background-color: #a39696;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+}
+#product-images{
+    display: grid;
+    grid-template-columns: 370px  370px 370px;
+    column-gap: 60px;
+    row-gap: 40px;
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+}
+#products h1{
+    text-align: center;
+    padding: 10px;
+    /* border:2px solid black; */
+    position: absolute;
+    width: 95%;
+    margin-top: -100px;
+}
+#img-boxs{
+    /* border:2px solid black ; */
+    position: relative;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: aliceblue;
+}
+#img-boxs h3{
+    text-transform: uppercase;
+}
+
+
+#img1-back{
+    /* background-color: #a39696; */
+    background-image: url(../images/product-1-1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    padding-right: 5px ;
+    margin-left: 3px;
+    opacity: 0;
+}
+
+#img-boxs:hover #img1-back{
+opacity: 1;
+}
+
+
+#img2-back{
+    background-image: url(../images/product-2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    height: 200px;
+    padding-right: 5px ;
+    margin-left: 3px;
+    margin-top: 10px;
+    opacity: 0;
+}
+#img-boxs:hover #img2-back{
+    opacity: 1;
+    }
+
+#img3-back{
+    background-image: url(../images/product-3-1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    height: 200px;
+    padding-right: 5px ;
+    margin-left: 3px;
+    margin-top: 10px;
+    opacity: 0;
+}
+#img-boxs:hover #img3-back{
+    opacity: 1;
+    }
+
+#img4-back{
+    background-image: url(../images/product-4-1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    height: 200px;
+    padding-right: 5px ;
+    margin-left: 3px;
+    margin-top: 10px;
+    opacity: 0;
+}
+#img-boxs:hover #img4-back{
+    opacity: 1;
+    }
+
+#img5-back{
+    background-image: url(../images/product-5-1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    height: 200px;
+    padding-right: 5px ;
+    margin-left: 3px;
+    margin-top: 10px;
+    opacity: 0;
+}
+#img-boxs:hover #img5-back{
+    opacity: 1;
+    }
+
+#img6-back{
+    background-image: url(../images/product-6-1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    height: 200px;
+    padding-right: 5px ;
+    margin-left: 3px;
+    margin-top: 10px;
+    opacity: 0;
+}
+#img-boxs:hover #img6-back{
+    opacity: 1;
+    }

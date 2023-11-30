@@ -1,0 +1,22 @@
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+    top: 0px;
+    width: 90%;
+}
+.shop_name{
+    font-style: italic;
+    font-weight: 600;
+}
+.watch{
+    width: 100px;
+    height: 80px;
+}
+.shop_icon{
+    font-size: 23px;
+}
