@@ -2,7 +2,7 @@ import React from 'react'
 import imgs from "../images/Roofing-Advertisement.jpeg"
 function Choice() {
   return (
-    <div>
+    <div className='choice-box'>
         <div className='choice'>
         <img src={imgs} className='choice-img' width={500} height={560}></img>
         <div className='para-box'>

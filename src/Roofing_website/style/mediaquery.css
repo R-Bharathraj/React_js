@@ -1,4 +1,4 @@
-@media (max-width:1024px){
+@media (min-width:1000px){
    /* body{
     width: 100vw;
     height: 100vh;
@@ -161,14 +161,21 @@ word-spacing: 3px;
 /* Choice */
 
 .choice{
+width: 1490px;
+position: relative;
+margin-top: 80px;
+background-color: rgb(65, 64, 64);
+padding: 30px 0px;
+height: 100%;
+}
+/* .choice img{
+
+} */
+/* .choice-box{
     width: 1490px;
-    margin-top: 80px;
-    background-color: rgb(65, 64, 64);
-    padding: 30px 0px;
-}
-.choice img{
-    margin-left: 120px;
-}
+    height: 100%;
+    position: relative;
+} */
 .para-box{
     padding: 24px;
     position: absolute;
