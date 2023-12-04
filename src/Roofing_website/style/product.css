@@ -131,3 +131,40 @@ opacity: 1;
 #img-boxs:hover #img6-back{
     opacity: 1;
     }
+
+
+
+    @media (max-width:1024px){
+        #products{
+            background-color: #a39696;
+            width: 1490px;
+            height: 100%;
+            padding: 100px 0px;
+        }
+        
+        
+        
+        #products h1{
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 1465px;
+            margin-top: -100px;
+        }
+        
+        
+        #product-images{
+            display: grid;
+            grid-template-columns: 370px  370px 370px;
+            column-gap: 60px;
+            row-gap: 40px;
+            text-align: center;
+            align-items: center;
+            margin-left: 130px;
+        }
+        
+        
+        
+        
+        
+    }

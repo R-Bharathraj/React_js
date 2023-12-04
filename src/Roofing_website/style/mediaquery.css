@@ -1,9 +1,4 @@
-@media (max-width:1440px){
-   /* body{
-    width: 100vw;
-    height: 100vh;
-   } */
- 
+@media (max-width:1024px){
    body{
     margin: 0px;
     padding: 0px;
@@ -11,33 +6,23 @@
     text-decoration: none;
     position: relative;
 }
-/* .logo-img{
-
-} */
 
 /* Navigation bar */
 
 .header{width: 1490px;
     height: 100px;
-    background-color: #f5f7f4;
-    /* border-bottom: 5px double #a39696; */
     position: fixed;
     margin-top: 0px;
     z-index: 2;
-    /* box-shadow:2px solid black 10px 10px; */
-    /* border:2px solid black solid black; */
 }
 .top-bar{width: 100%;
     height: 100px;
     margin-left: 0px;
-    /* border:2px solid black solid black; */
 }
 .menu-items ul{
     width: 60%;
     margin-left: 450px;
     margin-top: -106px;
-    height: 100px;
-    /* border:2px solid black solid black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,7 +70,6 @@
 /* slider  */
 
 .slider-box{
-    /* border:2px solid black solid black; */
     width: 1390px;
     height: 700px;
     background-image:url(../images/roofing-contractor-2.PNG);
@@ -93,8 +77,6 @@
     background-size:cover;
     backdrop-filter: gray;
     padding: 50px;
-    /* animation-name: slider;
-    animation-duration: 4s; */
 }
 
 .content-welcome {
@@ -102,17 +84,13 @@
     color: rgb(0, 0, 0);
     margin-left: 820px;
     margin-top: 380px;
-    /* border:2px solid black solid black; */
     padding: 10px;
     border-radius: 50px;
     background-color: #ffffff72;
     box-shadow:2px solid black 3px 10px ;
    
 }
-/* @keyframes slider {
-    50%{opacity: 0.5;}
-    100%{opacity: 1;;}
-} */
+
 h1{
     font-size: 60;
 }
@@ -152,8 +130,7 @@ word-spacing: 3px;
     height: 100%;
     padding-bottom: 100px;
     padding-left: 90px;
-    margin-left: 20px;
-    /* border:2px solid black solid black; */
+    margin-left: 20px; 
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -168,14 +145,7 @@ background-color: rgb(65, 64, 64);
 padding: 30px 0px;
 height: 100%;
 }
-/* .choice img{
 
-} */
-/* .choice-box{
-    width: 1490px;
-    height: 100%;
-    position: relative;
-} */
 .para-box{
     padding: 24px;
     position: absolute;
@@ -242,7 +212,6 @@ height: 100%;
     justify-content: space-evenly;
     width: 550px;
     height: 60px;
-    /* border:2px solid black solid black; */
     align-items: center;
     margin-left: 160px;
     margin-top: -50px;
@@ -329,7 +298,6 @@ height: 100%;
 #products h1{
     text-align: center;
     padding: 10px;
-    /* border:2px solid black; */
     position: absolute;
     width: 1465px;
     margin-top: -100px;

@@ -271,60 +271,66 @@ word-spacing: 3px;
 
 
 
+@media (max-width:1024px){
+
+ 
+ /* Navigation bar */
+ 
+ .header{width: 1490px;
+     height: 100px;
+     position: fixed;
+     margin-top: 0px;
+     z-index: 2;
+ }
+
+ 
+ /* slider  */
+ 
+ .slider-box{
+     width: 1390px;
+     height: 700px;
+     background-image:url(../images/roofing-contractor-2.PNG);
+     background-repeat: no-repeat;
+     background-size:cover;
+     backdrop-filter: gray;
+     padding: 50px;
+ }
+ 
 
 
+ /* OUR SERVICE */
+ 
+ 
+ /* Choice */
+ 
+ .choice{
+ width: 1490px;
+ position: relative;
+ margin-top: 80px;
+ background-color: rgb(65, 64, 64);
+ padding: 30px 0px;
+ height: 100%;
+ }
+ 
+ 
+ /* Footer box */
+ 
+ .footer{
+     width: 1490px;
+     height: 600px;
+     background-color: #222222;
+ }
+ .cpy-right{
+     margin-top: -25px;
+     width: 1490px;
+     height: 50px;
+     background-color: black;
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:768px){
-    /* body{
-        margin: 0px;
-        padding: 0px;
-    } */
-    .header{
-        width: 98%;
-        padding: 0px;
-        margin: 0px;
-        background-color: #f5f7f4;
-        border-bottom: 5px double #a39696;
-        /* box-shadow:2px solid black 10px 10px; */
-        /* border:2px solid black solid black; */
-    }
-    .top-bar{
-        width: 90%;
-     margin-left: 0px;
-        /* border:2px solid black solid black; */
-    }
-    .menu-items ul{
-        width: 70%;
-        margin-top: -70px;
-        height: 70px;
-        margin-left: 160px;
-        /* border:2px solid black solid black; */
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .menu-items ul li{
-        list-style: none;
-        color:  #222222;
-        font-size: 10;
-        font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-        
-    }
-    img{
-width: 150px;
-height: 70px;
-}
-    
-}
+ 
+ /* Products */
+ 
+ 
+ 
+ 
+ }
