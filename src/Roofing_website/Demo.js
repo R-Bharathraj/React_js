@@ -5,6 +5,8 @@ import Our_service from './components/Our_service'
 import Choice from './components/Choice'
 import Footer from './components/Footer'
 import Products from './components/Products'
+import "./style/style.css"
+import "./style/mediaquery.css"
 
 function Demo() {
   return (

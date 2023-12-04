@@ -1,4 +1,10 @@
-body{
+@media (max-width:1024px){
+   /* body{
+    width: 100vw;
+    height: 100vh;
+   } */
+ 
+   body{
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -11,7 +17,7 @@ body{
 
 /* Navigation bar */
 
-.header{width: 100%;
+.header{width: 1490px;
     height: 100px;
     background-color: #f5f7f4;
     /* border-bottom: 5px double #a39696; */
@@ -80,6 +86,7 @@ body{
 
 .slider-box{
     /* border:2px solid black solid black; */
+    width: 1390px;
     height: 700px;
     background-image:url(../images/roofing-contractor-2.PNG);
     background-repeat: no-repeat;
@@ -117,12 +124,44 @@ word-spacing: 3px;
 }
 
 /* OUR SERVICE */
-
-
+.bg-img{
+    width: 1490px;
+    height: 900px;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+.service-title h1{
+    padding-top: 50px;
+    width: 1490px;
+    text-align: center; 
+    position: relative;
+}
+.service-title p{
+    position: absolute;
+    width: 235px;
+    border-bottom: 5px solid black;
+    margin-left: 630px;
+    margin-top: -15px;
+}
+.service-img{
+    position: relative;
+    /* margin-top: 50px; */
+    width: 1350px;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    margin-left: 20px;
+    /* border:2px solid black solid black; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
 /* Choice */
 
 .choice{
+    width: 1490px;
     margin-top: 80px;
     background-color: rgb(65, 64, 64);
     padding: 30px 0px;
@@ -159,13 +198,13 @@ word-spacing: 3px;
 /* Footer box */
 
 .footer{
-    width: 100%;
+    width: 1490px;
     height: 600px;
     background-color: #222222;
 }
 .cpy-right{
     margin-top: -25px;
-    width: 100%;
+    width: 1490px;
     height: 50px;
     background-color: black;
 }
@@ -271,60 +310,37 @@ word-spacing: 3px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:768px){
-    /* body{
-        margin: 0px;
-        padding: 0px;
-    } */
-    .header{
-        width: 98%;
-        padding: 0px;
-        margin: 0px;
-        background-color: #f5f7f4;
-        border-bottom: 5px double #a39696;
-        /* box-shadow:2px solid black 10px 10px; */
-        /* border:2px solid black solid black; */
-    }
-    .top-bar{
-        width: 90%;
-     margin-left: 0px;
-        /* border:2px solid black solid black; */
-    }
-    .menu-items ul{
-        width: 70%;
-        margin-top: -70px;
-        height: 70px;
-        margin-left: 160px;
-        /* border:2px solid black solid black; */
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .menu-items ul li{
-        list-style: none;
-        color:  #222222;
-        font-size: 10;
-        font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-        
-    }
-    img{
-width: 150px;
-height: 70px;
+#products{
+    background-color: #a39696;
+    width: 1490px;
+    height: 100%;
+    padding: 100px 0px;
 }
-    
+
+
+
+#products h1{
+    text-align: center;
+    padding: 10px;
+    /* border:2px solid black; */
+    position: absolute;
+    width: 1465px;
+    margin-top: -100px;
+}
+
+
+#product-images{
+    display: grid;
+    grid-template-columns: 370px  370px 370px;
+    column-gap: 60px;
+    row-gap: 40px;
+    text-align: center;
+    align-items: center;
+    margin-left: 130px;
+}
+
+
+
+
+
 }
