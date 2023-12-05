@@ -9,12 +9,13 @@ import img6 from "../images/service-img-6.jpg"
 
 function Our_service() {
   return (
-    <>
-    <div className='bg-img'></div>
+    <div className='service-box'>
+    <div className='bg-img'>  
+    </div>
     <div className='service-title'>
       <h1>OUR SERVICES</h1>
       <p></p>
-
+      </div>
       {/* <div className='service-explain'>
 <h4>1. Roof Repair and Maintenance: Addressing leaks, damaged shingles, and other issues promptly to prevent further damage.</h4>
 <h4>2. Roof Replacement: Installing high-quality roofing materials to enhance the curb appeal and longevity of your home.</h4>
@@ -76,12 +77,14 @@ function Our_service() {
         <span className='black-box'></span>
         <label className='service-name'>Butler buildings Systems</label>
         </div>
-        </div>
+        
       </div>
        
-      <label className='view'>View for More</label>
+      
     </div>
-    </>
+    <label className='view'>
+      <span>View for More</span></label>
+    </div>
   )
 }
 

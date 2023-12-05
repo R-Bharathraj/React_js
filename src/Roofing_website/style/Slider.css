@@ -1,27 +1,22 @@
 .slider-box{
-    /* border:2px solid black solid black; */
     height: 700px;
     background-image:url(../images/roofing-contractor-2.PNG);
     background-repeat: no-repeat;
     background-size:cover;
     backdrop-filter: gray;
-    padding: 50px;
     position: relative;
-    /* animation-name: slider;
-    animation-duration: 4s; */
 }
 
 .content-welcome {
     width: 600px;
     color: rgb(0, 0, 0);
-    margin-left: 820px;
-    margin-top: 380px;
-    /* border:2px solid black solid black; */
     padding: 10px;
     border-radius: 50px;
     background-color: #ffffff72;
     box-shadow:2px solid black 3px 10px ;
     position: absolute;
+    top: 50%;
+    right: 0px;
    
 }
 /* @keyframes slider {
@@ -52,17 +47,16 @@ word-spacing: 3px;
         backdrop-filter: gray;
         padding: 50px;
     }
-    .content-welcome {
+    /* .content-welcome {
         width: 600px;
         color: rgb(0, 0, 0);
         margin-left: 750px;
         margin-top: 380px;
-        /* border:2px solid black solid black; */
         padding: 10px;
         border-radius: 50px;
         background-color: #ffffff72;
         box-shadow:2px solid black 3px 10px ;
        
-    }
+    } */
     
     }

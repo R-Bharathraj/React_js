@@ -28,10 +28,10 @@ Coimbatore 641006 (TN),
   <i class="fa-brands fa-whatsapp"></i>
   <i class="fa-brands fa-twitter"></i>
   </div>
-  <div className='insta'>Instagram</div>
+  {/* <div className='insta'>Instagram</div>
   <div className='face'>FaceBook</div>
   <div className='whats'>WhatsApp</div>
-  <div className='twitter'>Twitter</div>
+  <div className='twitter'>Twitter</div> */}
     </div>
     <div className='cpy-right'>
         <h4>© Copyright 2019. All Rights Reserved. Website developed by <span>KitKat Technologies</span></h4>

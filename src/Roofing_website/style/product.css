@@ -1,17 +1,19 @@
 #products{
+    position: relative;
     background-color: #a39696;
     width: 100%;
-    height: 100%;
+    height: 600px;
     padding: 100px 0px;
 }
 #product-images{
+    position: absolute;
     display: grid;
     grid-template-columns: 370px  370px 370px;
-    column-gap: 60px;
-    row-gap: 40px;
+    /* column-gap: 60px;
+    row-gap: 40px; */
     text-align: center;
     align-items: center;
-    margin-left: 150px;
+    justify-content: space-around;
 }
 #products h1{
     text-align: center;
@@ -23,9 +25,10 @@
 }
 #img-boxs{
     /* border:2px solid black ; */
+    border-radius: 10px;
     position: relative;
-    padding: 5px;
-    padding-top: 10px;
+    /* padding: 5px; */
+    /* padding-top: 10px; */
     background-color: aliceblue;
 }
 #img-boxs h3{
@@ -39,11 +42,8 @@
     background-size: cover;
     position: absolute;
     top: 0px;
-    width: 350px;
+    width: 300px;
     height: 200px;
-    margin-top: 10px;
-    padding-right: 5px ;
-    margin-left: 3px;
     opacity: 0;
 }
 
@@ -57,11 +57,8 @@ opacity: 1;
     background-size: cover;
     position: absolute;
     top: 0px;
-    width: 350px;
+    width: 300px;
     height: 200px;
-    padding-right: 5px ;
-    margin-left: 3px;
-    margin-top: 10px;
     opacity: 0;
 }
 #img-boxs:hover #img2-back{
@@ -73,11 +70,8 @@ opacity: 1;
     background-size: cover;
     position: absolute;
     top: 0px;
-    width: 350px;
+    width: 300px;
     height: 200px;
-    padding-right: 5px ;
-    margin-left: 3px;
-    margin-top: 10px;
     opacity: 0;
 }
 #img-boxs:hover #img3-back{
@@ -89,11 +83,8 @@ opacity: 1;
     background-size: cover;
     position: absolute;
     top: 0px;
-    width: 350px;
+    width: 300px;
     height: 200px;
-    padding-right: 5px ;
-    margin-left: 3px;
-    margin-top: 10px;
     opacity: 0;
 }
 #img-boxs:hover #img4-back{
@@ -105,11 +96,8 @@ opacity: 1;
     background-size: cover;
     position: absolute;
     top: 0px;
-    width: 350px;
+    width: 300px;
     height: 200px;
-    padding-right: 5px ;
-    margin-left: 3px;
-    margin-top: 10px;
     opacity: 0;
 }
 #img-boxs:hover #img5-back{
@@ -121,11 +109,8 @@ opacity: 1;
     background-size: cover;
     position: absolute;
     top: 0px;
-    width: 350px;
+    width: 300px;
     height: 200px;
-    padding-right: 5px ;
-    margin-left: 3px;
-    margin-top: 10px;
     opacity: 0;
 }
 #img-boxs:hover #img6-back{
@@ -135,9 +120,10 @@ opacity: 1;
 
     @media all and (min-width:1024px){
         #products{
+            position: relative;
             background-color: #a39696;
             width: auto;
-            height: 100%;
+            height: 600px;
             padding: 100px 0px;
         }
         
@@ -146,20 +132,19 @@ opacity: 1;
         #products h1{
             text-align: center;
             padding: 10px;
-            position: absolute;
-            width: 1465px;
-            margin-top: -100px;
         }
         
         
         #product-images{
+            position: absolute;
             display: grid;
-            grid-template-columns: 370px  370px 370px;
-            column-gap: 60px;
-            row-gap: 40px;
+            grid-template-columns: 300px  300px 300px;
+            /* border: 2px solid black; */
+            width: 100%;
+            height: 700px;
             text-align: center;
             align-items: center;
-            margin-left: 130px;
+            justify-content: space-around;
         }
         
         
