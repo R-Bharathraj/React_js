@@ -1,6 +1,6 @@
 import React from 'react'
 import imgs from "../images/WhatsApp Image 2023-11-27 at 16.30.14_edf93c4d.jpg"
-
+import "../style/style.css"
 function Top_bar() {
   return (
     <>

@@ -1,5 +1,6 @@
 import React from 'react'
 import imgs from "../images/Roofing-Advertisement.jpeg"
+import "../style/Choice.css"
 function Choice() {
   return (
     <div className='choice-box'>

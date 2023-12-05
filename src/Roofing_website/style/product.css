@@ -134,7 +134,7 @@ opacity: 1;
 
 
 
-    @media (max-width:1024px){
+    @media all and (max-width:1250px){
         #products{
             background-color: #a39696;
             width: 1490px;

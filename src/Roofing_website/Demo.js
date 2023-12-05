@@ -1,6 +1,4 @@
 import React from 'react'
-import "./style/style.css"
-// import "./style/mediaquery.css"
 import Top_bar from './components/Top_bar'
 import Slider from './components/Slider'
 import Our_service from './components/Our_service'

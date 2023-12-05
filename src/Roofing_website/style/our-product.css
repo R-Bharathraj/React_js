@@ -128,7 +128,7 @@ color: white;
 
 
 
-@media (max-width:1024px){
+@media all and (max-width:1250px){
     .bg-img{
         width: 1490px;
         height: 900px;

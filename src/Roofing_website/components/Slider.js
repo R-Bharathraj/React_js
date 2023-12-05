@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from "../images/roofing-contractor-2.PNG"
 import img2 from "../images/roofing-contractor-1.PNG"
+import "../style/Slider.css"
 
 function Slider() {
   return (
