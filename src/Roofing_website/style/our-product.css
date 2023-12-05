@@ -128,9 +128,9 @@ color: white;
 
 
 
-@media all and (max-width:1250px){
+@media all and (min-width:1024px){
     .bg-img{
-        width: 1490px;
+        width: auto;
         height: 900px;
         background-image: url(../images/background.jpg);
         background-position: center;

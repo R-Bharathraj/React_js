@@ -33,12 +33,11 @@
     font-size: 200;
 }
 
-
-@media all and (max-width:1250px){
+@media all and (min-width:1024px){
     /* Choice */
  
  .choice{
-    width: 1490px;
+    width: auto;
     position: relative;
     margin-top: 80px;
     background-color: rgb(65, 64, 64);

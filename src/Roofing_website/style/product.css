@@ -133,11 +133,10 @@ opacity: 1;
     }
 
 
-
-    @media all and (max-width:1250px){
+    @media all and (min-width:1024px){
         #products{
             background-color: #a39696;
-            width: 1490px;
+            width: auto;
             height: 100%;
             padding: 100px 0px;
         }
