@@ -126,8 +126,6 @@ color: white;
 }
 
 
-
-
 @media all and (min-width:1024px){
     .bg-img{
         width: auto;
@@ -209,4 +207,82 @@ color: white;
         border: 2px solid black;
         width: 100;
     } */
+}
+
+
+/* Mobile View  */
+
+@media all and (width<=700px){
+    .bg-img{
+        width: auto;
+        height: 1700px;
+        background-image: url(../images/background.jpg);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.6;
+    }
+    .service-box{
+        /* border: 2px solid black; */
+        position: relative;
+    }
+    .service-title{
+        position: absolute;
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box{
+        /* margin-top: 100px; */
+        position: relative;
+        /* width: 100%;
+        height: 100%; */
+        /* border: 2px solid black; */
+    }
+    /* .service-title h1{
+        text-align: center; 
+    } */
+    .service-title p{
+        position: absolute;
+        border-bottom: 5px solid black;
+        margin-top: 55px;
+        width: 220px;
+    }
+    .service-img{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: 100px;
+    }
+    .img1{
+        width: 200px;
+        height: 150px;
+    }
+    .img-box span{
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        margin-top: -4px;
+        background-color: rgb(133, 3, 3);
+        border: 3px solid rgb(90, 2, 2);
+    }
+    .img-box label{
+        position: absolute;
+        width: 116px;
+        margin-top: -4px;
+        border-bottom:2px solid black solid rgb(123, 118, 118);
+        border-right:2px solid black solid rgb(123, 118, 118);
+        padding: 21px 0px;
+        margin-left: 64px;
+        padding-left: 20px;
+        background-color: black;
+        color: wheat;
+        font-size: 10px;
+        font-weight: 500;
+    }
 }

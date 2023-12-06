@@ -1,4 +1,5 @@
 .slider-box{
+    margin-top: 100px;
     height: 700px;
     background-image:url(../images/roofing-contractor-2.PNG);
     background-repeat: no-repeat;
@@ -23,11 +24,13 @@
     50%{opacity: 0.5;}
     100%{opacity: 1;;}
 } */
-h1{
-    font-size: 60;
+.content-welcome span,i{
+    font-size: 25px;
+    font-weight: 800;
+    padding: 5px;
 }
 .content-welcome h3{
-    width: 400px;
+width: 400px;
 font-size:25; 
 font-style: italic;
 word-spacing: 3px;
@@ -60,3 +63,44 @@ word-spacing: 3px;
     } */
     
     }
+
+
+    @media all and (max-width:500px){
+        /* slider  */
+         
+        .slider-box{
+            width: auto;
+            height: 300px;
+            background-image:url(../images/roofing-contractor-2.PNG);
+            background-repeat: no-repeat;
+            background-size:cover;
+            backdrop-filter: gray;
+            position: relative;
+        }
+        .content-welcome {
+            position: absolute;
+            top: 47%;
+            width: 200px;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #ffffff72;
+            box-shadow:2px solid black 3px 10px ;
+            line-height: 1;
+            /* display: none; */
+           
+        }
+        .content-welcome span,i{
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px;
+        }
+        .content-welcome h3{
+        width: 200px;
+        font-size:5px; 
+        font-style: italic;
+        word-spacing: 1px;
+        }
+        
+        
+        }

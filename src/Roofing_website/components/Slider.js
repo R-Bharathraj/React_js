@@ -7,7 +7,7 @@ function Slider() {
   return (
     <div className='slider-box'>
     <div className='content-welcome'>
-       <h1> Welcome to <i><q>S.K ENGINEERING</q></i>  - Your Trusted Roofing Experts</h1>
+       <span> Welcome to <i><q>S.K ENGINEERING</q></i>  - Your Trusted Roofing Experts</span>
        <h3>At S.K ENGINEERING, we understand that your home is more than just a place; 
         it's an investment, a sanctuary, and a reflection of your unique style. 
         That's why we are dedicated to providing top-notch roofing solutions that protect your investment and enhance the beauty of your home.</h3>
